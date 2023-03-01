@@ -1,0 +1,950 @@
+html,body {
+margin: 0;
+padding: 0;
+}
+
+body{
+ font-family: -apple-system,BlinkMacSystemFont,Roboto,AppleSDGothicNeo-Regular,NanumBarunGothic,NanumGothic,나눔고딕;
+}
+
+#header-fix {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: thin solid;
+    border-color: #cccaca;
+}
+
+.header-top {
+    padding: 8px 40px 0;
+    height: 14px;
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    bottom: 10px;
+}
+
+#top-top {
+    position: relative;
+    right: 15px;
+}
+
+li {
+  float: right;
+}
+
+#top-lists  {
+    margin-left: 24px;
+}
+
+#top-listss  {
+    margin-left: 24px;
+}
+
+.h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+}
+
+h1  {
+    width: 120px;
+    height: 24px;
+    display: inline-block;
+    margin: 0;
+    float: left;
+    background-image: url(./kreamm.png);
+    background-size: 120px;
+    width: 120px;
+    height: 24px;
+    background-position: 0%;
+}
+
+.logo {
+    display: none;
+}
+
+.center {
+    margin: 0 20px;
+    max-width: 466px;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    position: relative;
+    top: 5px;
+}
+
+.main-inner {
+    padding: 20px 40px;
+    min-width: 320px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 24px;
+    display: block;
+    text-align: center;
+}
+
+.gnb-fin {
+    background-color: white;
+}
+
+.gnb-total {
+    position: relative;
+    right: 50px;
+    display: inline;
+    bottom: 5px;
+    font-size: 20px;
+}
+
+.search-btn-box {
+    background-image: url(./search.png);
+    background-size: 28px;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    bottom: 5px;
+}
+
+.search-btn {
+    display: none;
+}
+
+.gnb-item {
+    margin-right: 40px;
+}
+
+.gnb-links {
+    font-weight: 700;
+}
+
+.search-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.ul-tab {
+    height: 44px;
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+#li-fin {
+   float: left;
+}
+
+.li-tab {
+    margin-left: 27px;
+    display: inline-block;
+}
+
+.a-tabs {
+  border-bottom-color: rgb(232, 9, 9);
+}
+
+.a-tabs {
+    margin-left: 10px;
+    color: rgb(232, 9, 9);
+}
+
+.tab-name {
+    position: relative;
+    line-height: 20px;
+    background-color: #fff;
+    line-height: 3;
+}
+
+#second-body {
+    width: 1280px;
+    margin: 0px 130px;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(211, 215, 228);
+    padding-top: 130px;
+}
+
+#nav-ad {
+    background-image: url(./stussy.png);
+    background-size: 1277px;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.nav-stussy {
+    text-align: center;
+    width: 100%;
+    height: 480px;
+    display: none;
+}
+
+#left-to {
+    background-image: url(./toward.png);
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-position: center;
+    float: left;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+}
+
+.toward {
+  display: none;
+}
+
+#right-to {
+    background-image: url(./toward2.png);
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-position: center;
+    float: right;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+}
+
+.toward2 {
+    display: none;
+}
+
+#second-body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#main-re {
+    height: 270px;
+    margin-top: 40px;
+    margin-bottom: 56px;
+}
+
+#main2 {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 1200px;
+    height: 270px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 8px;
+    row-gap: 16px;
+}
+
+#main1-img {
+    background-image: url(./celebpick.png);
+    background-size: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#main1-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#main2-img {
+    background-image: url(./Men.png);
+    background-size: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#main2-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#main3-img {
+    background-image: url(./Woman.png);
+    background-size: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#main3-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#main4-img {
+    background-image: url(./Welcomedraw.png);
+    background-size: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#main4-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#main5-img {
+    background-image: url(./hood.png);
+    background-size: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#main5-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#main6-img {
+    background-image: url(./boot.png);
+    background-size: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#main6-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#main7-img {
+    background-image: url(./rolex.png);
+    background-size: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#main7-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#main8-img {
+    background-image: url(./ling.png);
+    background-size: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#main8-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#main9-img {
+    background-image: url(./pink.png);
+    background-size: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#main9-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#main10-img {
+    background-image: url(photo.png);
+    background-size: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#main10-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#third-body {
+    width: 1280px;
+    height: 570px;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 56px auto 40px;
+    content: "";
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    height: 1px;
+    background: #ebebeb;
+}
+
+#middle2 {
+    width: 1200px;
+    margin: 0 auto 16px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#drop {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+}
+
+#shang {
+    font-size: 16px;
+    color: rgba(34,34,34,.5);
+}
+
+
+#middle3 {
+    width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+}
+
+#middle3-1 {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 8px;
+}
+
+#asics-img {
+    background-color: #e0e6dc;
+    background-image: url(./asic.png);
+    background-position: center;
+    background-size: 100%;
+    width: 294px;
+    height: 294px;
+    border-radius: 8px;
+}
+
+#dunk-img {
+    background-color: #dfeef7;
+    background-image: url(./dunk.png);
+    background-position: center;
+    background-size: 100%;
+    width: 294px;
+    height: 294px;
+    border-radius: 8px;
+}
+
+#jordan4-img {
+    background-color: #d1cac7;
+    background-image: url(./jordan4.png);
+    background-position: center;
+    background-size: 100%;
+    width: 294px;
+    height: 294px;
+    border-radius: 8px;
+}
+
+#ader-img {
+    background-image: url(./jacket.png);
+    background-position: center;
+    background-size: 100%;
+    width: 294px;
+    height: 294px;
+    border-radius: 8px;
+}
+
+.product-pro {
+    padding-top: 9px;
+}
+
+.drop-product {
+    display: none;
+}
+
+.img-text {
+    width: 294px;
+    height: 83.5px;
+    margin: 0 auto;
+    padding-top: 9px;
+}
+
+.brand-text {
+    display: inline-block;
+    vertical-align: top;
+    height: 17px;
+    line-height: 17px;
+    padding-bottom: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #222;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.product-text {
+    line-height: 17px;
+    margin-top: 8.5px;
+    margin-bottom: 2px;
+    max-height: 34px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    font-size: 14px;
+    color: #222;
+}
+
+.product-price {
+   padding-top: 7px;
+}
+
+.product-cost {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 17px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -.04px;
+}
+
+.money-now {
+    line-height: 13px;
+    font-size: 11px;
+    color: rgba(34,34,34,.5);
+}
+
+#moreandmore {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#more {
+    text-align: center;
+    padding: 0 30px;
+    margin-top: 20px;
+    padding-bottom: 11.25px;
+    padding-top: 11.25px;
+    border-radius: 12px;
+    font-size: 14px;
+    border: 1px solid #d3d3d3;
+    color: rgba(34,34,34,.8);
+    width: 39.05px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#big-middle4 {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#middle4 {
+    margin-top: 40px;
+    margin-bottom: 56px;
+}
+
+#middle4-text {
+    width: 1200px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 16px;
+}
+
+#brand {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+}
+
+#recommend {
+    font-size: 16px;
+    color: rgba(34,34,34,.5);
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#middle4-box {
+    margin-top: 16px;
+    width: 1200px;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 16px;
+    column-gap: 8px;
+}
+
+.brand2-text {
+    text-align: center;
+    margin-top: 8px;
+}
+
+#shanel-img {
+    background-image: url(./shanel.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#army-img {
+    background-image: url(./hood2.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#rolex-img {
+    background-image: url(./watch.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#remere-img {
+    background-image: url(./belt.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#lego-img {
+    background-image: url(./lego.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#stone-img {
+    background-image: url(./stone.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#arkne-img {
+    background-image: url(./bag.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#louis-img {
+    background-image: url(./beauty.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#mejong-img {
+    background-image: url(./gadigeon.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#miu-img {
+    background-image: url(./toe.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#woo-img {
+    background-image: url(./woo.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#polo-img {
+    background-image: url(./cap.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#heremes-img {
+    background-image: url(./handbag.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#apple-img {
+    background-image: url(./apple.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#vivian-img {
+    background-image: url(./neckling.png);
+    background-position: center;
+    background-size: 100%;
+    height: 100px;
+    border-radius: 9px;
+}
+
+#big-arrivals {
+    margin-top: 40px;
+    margin-bottom: 56px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#arrivals {
+    background-image: url(./arrivals.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1277px;
+    width: 100%;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.arrivals-text {
+    display: none;
+}
+
+#shop {
+    margin-top: 40px;
+    margin-bottom: 56px;
+}
+
+#big-brand2 {
+    margin-top: 40px;
+    margin-bottom: 56px;
+}
+
+
+#brand2 {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#most-text {
+    width: 1177px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 16px;
+}
+
+#most {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+}
+
+#popular {
+    font-size: 16px;
+    color: rgba(34,34,34,.5);
+}
+
+#max-img {
+    background-image: url(./max.png);
+    background-position: center;
+    background-size: 100%;
+    width: 294px;
+    height: 294px;
+    border-radius: 8px;
+}
+
+#sicago-img {
+    background-color: #ffe0e4;
+    background-image: url(./sicago.png);
+    background-position: center;
+    background-size: 100%;
+    width: 294px;
+    height: 294px;
+    border-radius: 8px;
+}
+
+#whale-img {
+    background-color:#e6e6fc;
+    background-image: url(./whale.png);
+    background-position: center;
+    background-size: 100%;
+    width: 294px;
+    height: 294px;
+    border-radius: 8px;
+}
+
+#force-img {
+    background-color: #e8e2d8;
+    background-image: url(./force.png);
+    background-position: center;
+    background-size: 100%;
+    width: 294px;
+    height: 294px;
+    border-radius: 8px;
+}
+
+#style {
+    margin-top: 40px;
+    margin-bottom: 56px;
+}
+
+#style111 {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#style-text {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+    padding: 0px 40px 16px;
+}
+
+#style-box {
+    width: 1200px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 4px;
+    gap: 4px;
+}
+
+#style1 {
+    background-image: url(./photo1.png);
+    background-position: center;
+    background-size: 100%;
+    width: 196.666666667px;
+    height: 260px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+
+#style2 {
+    background-image: url(./man.png);
+    background-position: center;
+    background-size: cover;
+    width: 196.666666667px;
+    height: 260px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+
+#style3 {
+    background-image: url(./me.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 196.666666667px;
+    height: 260px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+
+#style4 {
+    background-image: url(bro.jpeg.jpg);
+    background-position: center;
+    background-size: 100%;
+    width: 196.666666667px;
+    height: 260px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+
+#style5 {
+    background-image: url(black.png);
+    background-position: center;
+    background-size: 100%;
+    width: 196.666666667px;
+    height: 260px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+
+#style6 {
+    background-image: url(color2.png);
+    background-position: center;
+    background-size: cover;
+    width: 196.666666667px;
+    height: 260px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+
+
+.profile-photo {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.profile {
+    position: relative;
+    bottom: 25px;
+    left: 8px;
+    font-size: 13px;
+    color: #fff;
+    z-index: 10;
+}
+
+
+#profile1 {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.att {
+    
+}
